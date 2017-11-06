@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxViewClock", "BoxViewClock\BoxViewClock\BoxViewClock.csproj", "{7A6D4379-AD44-46C6-A66F-7E35F58CD089}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxViewClock.WinPhone81", "BoxViewClock\BoxViewClock.WinPhone81\BoxViewClock.WinPhone81.csproj", "{58741E48-3A96-4D53-BFA9-920F600586FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxViewClock.UWP", "BoxViewClock\BoxViewClock.UWP\BoxViewClock.UWP.csproj", "{48D8C58C-04A6-4937-88F2-E66A184F1EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxViewClock.Tizen", "BoxViewClock\BoxViewClock.Tizen\BoxViewClock.Tizen.csproj", "{4A6866AD-E264-409E-B918-EE4C57B51BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,9 +491,68 @@ Global
 		{48D8C58C-04A6-4937-88F2-E66A184F1EC8}.Release|x86.ActiveCfg = Release|x86
 		{48D8C58C-04A6-4937-88F2-E66A184F1EC8}.Release|x86.Build.0 = Release|x86
 		{48D8C58C-04A6-4937-88F2-E66A184F1EC8}.Release|x86.Deploy.0 = Release|x86
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|x64.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.AppStore|x86.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|ARM.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|ARM.Build.0 = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|iPhone.Build.0 = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|x64.Build.0 = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A6866AD-E264-409E-B918-EE4C57B51BDB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16D20FBC-05B3-4F40-8DDF-9D39D595DDA5}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = BoxViewClock\BoxViewClock.iOS\BoxViewClock.iOS.csproj
